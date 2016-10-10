@@ -11,7 +11,7 @@ public class SampleSpark2 {
 
 	public static void main(String[] args) {
 
-		System.out.println("from inside sample spark 1");
+		System.out.println("from inside find character length");
 		String logFile = "readme.md"; // Should be some file on
 														// your system
 		SparkConf conf = new SparkConf().setAppName("Simple Application").setMaster("local");
